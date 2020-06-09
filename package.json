@@ -4,11 +4,16 @@
   "description": "crash course",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index",
+    "dev": "nodemon index"
   },
   "author": "Dito Cahya Pratama",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "moment": "^2.26.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
